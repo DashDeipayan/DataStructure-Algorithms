@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch MonotonicArray",
+            "request": "launch",
+            "mainClass": "MonotonicArray",
+            "projectName": "Arrays_7f0ed888"
+        },
+        {
+            "type": "java",
+            "name": "Launch MoveElementToEnd",
+            "request": "launch",
+            "mainClass": "MoveElementToEnd",
+            "projectName": "Arrays_7f0ed888"
+        },
+        {
+            "type": "java",
+            "name": "Launch SmallestDifference",
+            "request": "launch",
+            "mainClass": "SmallestDifference",
+            "projectName": "Arrays_7f0ed888"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreeNumberSum",
+            "request": "launch",
+            "mainClass": "ThreeNumberSum",
+            "projectName": "Arrays_7f0ed888"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwoNumberSum",
+            "request": "launch",
+            "mainClass": "TwoNumberSum",
+            "projectName": "Arrays_7f0ed888"
+        }
+    ]
+}
