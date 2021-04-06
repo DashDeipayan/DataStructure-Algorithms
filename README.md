@@ -4,7 +4,7 @@ The letter 'I' denoted incomplete <br/>
 and <br/>
 'N' denoted Not started yet<br/>
 This Repository is a continuously updating and improving repository so feel free to browse through. 
-## Variaous Data Structures:-
+## Various Data Structures:-
 * Arrays(I)
 * Strings(N)
 * Lists(N)
