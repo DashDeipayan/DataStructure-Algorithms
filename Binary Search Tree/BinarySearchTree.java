@@ -7,11 +7,7 @@ public class BinarySearchTree {
             this.value = value;
             left = right = null;
         }
-
-        public void deleteNode(int value2, BinarySearchTree.Node currentNode) {
-        }
     }
-
     Node root;
 
     BinarySearchTree() {
