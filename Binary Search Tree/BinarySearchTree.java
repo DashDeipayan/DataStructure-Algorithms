@@ -97,6 +97,9 @@ public class BinarySearchTree {
     void traverse(){
         inOrderTraversal(root);
     }
+    int findClosest(int target){
+        return FindClosestValue.findClosestValue(root,target);
+    }
 
 
     public static void main(String[] args) {
@@ -122,5 +125,8 @@ public class BinarySearchTree {
         tree.delete(15);
         tree.contains(15);
         tree.traverse();
+
+        int closest = tree.findClosest(23);
+        System.out.println("\nClosest value for 23 is "+closest);
     }
 }
