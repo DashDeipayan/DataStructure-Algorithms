@@ -1,5 +1,4 @@
 public class FindClosestValue {
-
     public static int findClosestValue(BinarySearchTree.Node tree, int number){
         return findClosestValueinBST(tree, number, Integer.MAX_VALUE);
     }

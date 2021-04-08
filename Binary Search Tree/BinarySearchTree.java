@@ -21,7 +21,7 @@ public class BinarySearchTree {
             root = new Node(value);			//set up root if empty prior
             return root;
         }
-        if(value<=root.value){				//Following property of BST
+        if(value<root.value){				//Following property of BST
             root.left = insertNode(root.left, value);
         }
         else{
@@ -116,6 +116,13 @@ public class BinarySearchTree {
         return FindClosestValue.findClosestValue(root,target);
     }
 
+    void isValidBST(){
+        if(ValidateBST.validateBST(root))
+            System.out.println("This is a Binary Search Tree");
+        else
+            System.out.println("This is not a Binary Search Tree");
+    }
+
 
     public static void main(String[] args) {
         BinarySearchTree tree = new BinarySearchTree();
@@ -143,5 +150,7 @@ public class BinarySearchTree {
 
         int closest = tree.findClosest(23);
         System.out.println("\nClosest value for 23 is "+closest);
+        
+        tree.isValidBST();
     }
 }
