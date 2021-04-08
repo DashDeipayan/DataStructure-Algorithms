@@ -31,6 +31,7 @@ public class LongestPalindromeSubString{
         }
         printSubString(string, from, from+to-1);
     }
+    
     public static void main(String[] args){
         String str = "abcxyyzzyyxabc";
         longestPalindromeSubString(str);
