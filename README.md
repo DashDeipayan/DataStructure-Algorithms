@@ -6,7 +6,7 @@ and <br/>
 This Repository is a continuously updating and improving repository so feel free to browse through. 
 ## Various Data Structures:-
 * Arrays(I)
-* Strings(N)
+* Strings(I)
 * Lists(N)
     * ArrayLists
     * LinkedList
@@ -20,8 +20,9 @@ This Repository is a continuously updating and improving repository so feel free
 * Heaps(N)
 * Trees(I)
     * Binary Tree
-    * Binary Search Tree
+    * Binary Search Tree 
     * Segment Tree
+    * (Fenwick Tree)
 * Graphs(N)
     * Depth-First Search
     * Breadth-First Search
