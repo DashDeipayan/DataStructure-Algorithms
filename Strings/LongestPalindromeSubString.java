@@ -1,6 +1,6 @@
 public class LongestPalindromeSubString{
     public static void printSubString(String str, int left, int right){
-        System.out.println(str.substring(left, right+1));
+        System.out.println(str.substring(left, right));
     } 
 
     public static void longestPalindromeSubString(String string){
@@ -29,9 +29,9 @@ public class LongestPalindromeSubString{
                 right++;
             }
         }
-        printSubString(string, from, from+to-1);
+        printSubString(string, from, from+to);
     }
-    
+
     public static void main(String[] args){
         String str = "abcxyyzzyyxabc";
         longestPalindromeSubString(str);
