@@ -5,7 +5,7 @@ public class MonotonicArray {
         int size = array.length;
         if (size <= 2)
             return true;
-        while (direction == 0 && i < size) {
+        while (direction == 0 && i < size - 1) {
             if (array[i + 1] - array[i] > 0) {
                 direction = 1;
             } else if (array[i + 1] - array[i] < 0) {
@@ -30,7 +30,7 @@ public class MonotonicArray {
     }
 
     public static void main(String[] args) {
-        int[] array = { -1, -5, -10, -1100, -1100, -1101, -1102, -9901 };
+        int[] array = { -1, -1, -1, -1, -1, -1, -1, -1 };
         System.out.println(monotonicArray(array));
     }
 }
