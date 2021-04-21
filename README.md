@@ -13,14 +13,14 @@ This Repository is a continuously updating and improving repository so feel free
 - Lists(I)
   - ArrayLists
   - LinkedList
-  - (Vectors)
+  - (Vectors)(Not interest TBH 😓)
   - (Stacks)
 - Queue(N)
   - PriorityQueue
 - Set(N)
   - HashSet
   - LinkedHashSet
-- Heaps(N)
+- Heaps(I)
 - Trees(I)
   - Binary Tree
   - Binary Search Tree
@@ -30,6 +30,7 @@ This Repository is a continuously updating and improving repository so feel free
   - Depth-First Search
   - Breadth-First Search
   - Directed Acyclic Graphs(DAGs)
+  - Cycle detection
 - Tries(N)
 
 ## Algorithms:-
