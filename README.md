@@ -22,15 +22,15 @@ This Repository is a continuously updating and improving repository so feel free
   - LinkedHashSet
 - Heaps(I)
 - Trees(I)
-  - Binary Tree
-  - Binary Search Tree
-  - Segment Tree
-  - (Fenwick Tree)
+  - Binary Tree(I)
+  - Binary Search Tree(I)
+  - Segment Tree(N)
+  - (Fenwick Tree)(N)
 - Graphs(I)
-  - Depth-First Search
-  - Breadth-First Search
-  - Directed Acyclic Graphs(DAGs)
-  - Cycle detection
+  - Depth-First Search(I)
+  - Breadth-First Search(N)
+  - Directed Acyclic Graphs(DAGs)(N)
+  - Cycle detection(N)
 - Tries(N)
 
 ## Algorithms:-
