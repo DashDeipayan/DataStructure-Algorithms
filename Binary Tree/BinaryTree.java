@@ -68,6 +68,14 @@ public class BinaryTree {
         System.out.println("\n" + BranchSumBinaryTree.branchSumBinaryTree(root));
     }
 
+    public void getNodeDepthSum() {
+        System.out.println("\n" + NodeDepth.nodeDepth(root));
+    }
+
+    public void invertTree() {
+        InvertBinaryTree.invertBinaryTree(root);
+    }
+
     public static void main(String[] args) {
         BinaryTree tree = new BinaryTree(5);
         tree.insert(10);
@@ -88,5 +96,10 @@ public class BinaryTree {
         tree.printTree();
 
         tree.getBranchSum();
+
+        tree.getNodeDepthSum();
+
+        tree.invertTree();
+        tree.printTree();
     }
 }
