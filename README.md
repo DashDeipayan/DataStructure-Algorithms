@@ -13,6 +13,8 @@ This Repository is a continuously updating and improving repository so feel free
 - Lists(I)
   - ArrayLists
   - LinkedList
+    - Single Linked List(construction from scratch)✅
+    - doubly Linked List(construction from scratch)✅
   - (Vectors)(Not interest TBH 😓)
   - (Stacks)
 - Queue(N)
