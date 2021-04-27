@@ -64,15 +64,31 @@ public class LinkedList {
 
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
-        Random random = new Random();
-        for (int i = 0; i < 20; i++) {
-            list = list.insert(list, random.nextInt(100));
-        }
-        list = list.insert(list, 66);
+        list = list.insert(list, 54);
         list = list.insert(list, 69);
+        list = list.insert(list, 21);
+        list = list.insert(list, 32);
+        list = list.insert(list, 53);
+        list = list.insert(list, 62);
+        list = list.insert(list, 16);
+        list = list.insert(list, 66);
+        list = list.insert(list, 56);
+        list = list.insert(list, 23);
+        list = list.insert(list, 16);
+        list = list.insert(list, 14);
+        list = list.insert(list, 54);
+        list = list.insert(list, 32);
+
         printlist(list);
+
         list = list.delete(list, 66);
         list = list.delete(list, 69);
+
         printlist(list);
+
+        list = RemoveDuplicates.removeDuplicates(list);
+
+        printlist(list);
+
     }
 }
