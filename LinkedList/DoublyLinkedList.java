@@ -30,7 +30,7 @@ public class DoublyLinkedList {
     public static void printlist(DoublyLinkedList list) {
         Node p = list.head;
         while (p != null) {
-            System.out.print(p.data + "<->");
+            System.out.print(p.data + " <-> ");
             p = p.next;
         }
         System.out.println("end\n");
