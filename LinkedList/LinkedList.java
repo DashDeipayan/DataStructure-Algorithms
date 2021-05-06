@@ -90,5 +90,8 @@ public class LinkedList {
 
         printlist(list);
 
+        list = RemoveFromListEndOnePass.removeFromListEndOnePass(list, 2);
+
+        printlist(list);
     }
 }
