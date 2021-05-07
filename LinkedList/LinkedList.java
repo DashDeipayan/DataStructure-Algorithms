@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class LinkedList {
     public static class Node {
         int data;
@@ -91,6 +89,10 @@ public class LinkedList {
         printlist(list);
 
         list = RemoveFromListEndOnePass.removeFromListEndOnePass(list, 2);
+
+        printlist(list);
+
+        list = RotateList.rotateList(list, 2);
 
         printlist(list);
     }
