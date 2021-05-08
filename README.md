@@ -1,6 +1,7 @@
 # DATA STRUCTURE AND ALGORITHMS(By Deipayan Dash)
 
 This is my regular update of practice of Data Structures and algorithms.<br/>I have primarily used **JAVA** and it's _Collections Frameworks_ as my preferred language and tools to master.<br/>
+The letter 'C' denotes 'completed', <br/>
 The letter 'I' denotes 'incomplete' <br/>
 and <br/>
 'N' denotes 'Not started yet'<br/>
@@ -29,8 +30,8 @@ This Repository is a continuously updating and improving repository so feel free
   - Segment Tree(N)
   - (Fenwick Tree)(N)
 - Graphs(I)
-  - Depth-First Search(I)
-  - Breadth-First Search(N)
+  - Depth-First Search(C)
+  - Breadth-First Search(C)
   - Directed Acyclic Graphs(DAGs)(N)
   - Cycle detection(N)
 - Tries(N)
