@@ -41,6 +41,7 @@ public class BreadthFirstSearch {
         bfs.child.get(0).child.get(1).addChild("K");
         bfs.child.get(1).child.get(0).addChild("L");
         bfs.child.get(2).child.get(0).addChild("M");
+
         ArrayList<String> array = new ArrayList<String>();
         System.out.println(bfs.breadthFirstSearch(array));
     }
