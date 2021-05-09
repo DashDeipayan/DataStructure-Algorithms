@@ -76,24 +76,22 @@ public class LinkedList {
         list = list.insert(list, 14);
         list = list.insert(list, 54);
         list = list.insert(list, 32);
-
         printlist(list);
 
         list = list.delete(list, 66);
         list = list.delete(list, 69);
-
         printlist(list);
 
         list = RemoveDuplicates.removeDuplicates(list);
-
         printlist(list);
 
         list = RemoveFromListEndOnePass.removeFromListEndOnePass(list, 2);
-
         printlist(list);
 
         list = RotateList.rotateList(list, 2);
+        printlist(list);
 
+        list = SwapPairNodes.swapPairNodes(list);
         printlist(list);
     }
 }
