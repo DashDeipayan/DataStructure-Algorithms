@@ -93,5 +93,19 @@ public class LinkedList {
 
         list = SwapPairNodes.swapPairNodes(list);
         printlist(list);
+
+        LinkedList list1 = new LinkedList();
+        list1 = list1.insert(list1, 9);
+        list1 = list1.insert(list1, 9);
+        list1 = list1.insert(list1, 9);
+        list1 = list1.insert(list1, 9);
+
+        LinkedList list2 = new LinkedList();
+        list2 = list2.insert(list2, 6);
+        list2 = list2.insert(list2, 5);
+        list2 = list2.insert(list2, 3);
+
+        LinkedList list3 = SumTwoLinkedLists.sumTwoLinkedLists(list1, list2);
+        printlist(list3);
     }
 }
