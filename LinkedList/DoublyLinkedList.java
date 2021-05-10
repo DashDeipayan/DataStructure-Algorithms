@@ -27,6 +27,29 @@ public class DoublyLinkedList {
         return list;
     }
 
+    public DoublyLinkedList insertBefore(DoublyLinkedList list, int nodeBeforeWhich, int nodeToMove) {
+        Node temp = head, toMove = null, beforeWhich = null;
+        while (temp.next != null) {
+            if (temp.data == nodeToMove) {
+                toMove = temp;
+            }
+            if (temp.data == nodeBeforeWhich) {
+                beforeWhich = temp;
+            }
+            temp = temp.next;
+        }
+        toMove.prev.next = toMove.next;
+        toMove.next.prev = toMove.prev;
+
+        beforeWhich.prev.next = toMove;
+        toMove.prev = beforeWhich.prev;
+        beforeWhich.prev = toMove;
+        toMove.next = beforeWhich;
+        System.out.println("Node " + toMove.data + " was sent before " + beforeWhich.data);
+
+        return list;
+    }
+
     public static void printlist(DoublyLinkedList list) {
         Node p = list.head;
         while (p != null) {
@@ -105,10 +128,10 @@ public class DoublyLinkedList {
         list = list.insert(list, 66);
         list = list.insert(list, 56);
         list = list.insert(list, 23);
-        list = list.insert(list, 16);
+        list = list.insert(list, 26);
         list = list.insert(list, 14);
         list = list.insert(list, 54);
-        list = list.insert(list, 32);
+        list = list.insert(list, 31);
         printlist(list);
 
         setHead(list, new Node(5));
@@ -119,6 +142,9 @@ public class DoublyLinkedList {
 
         list = list.delete(list, 66);
         list = list.delete(list, 8);
+        printlist(list);
+
+        list = list.insertBefore(list, 32, 16);
         printlist(list);
     }
 }
