@@ -1,35 +1,22 @@
 public class SumTwoLinkedLists {
     public static LinkedList sumTwoLinkedLists(LinkedList list1, LinkedList list2) {
         LinkedList finalList = new LinkedList();
-        int value1 = 0, value2 = 0;
-        LinkedList.Node temp = list1.head;
-        while (temp != null) {
-            value1 = value1 * 10 + temp.data;
-            temp = temp.next;
-        }
-        temp = list2.head;
-        while (temp != null) {
-            value2 = value2 * 10 + temp.data;
-            temp = temp.next;
-        }
-        value1 = reverse(value1);
-        value2 = reverse(value2);
-        int sum = value1 + value2;
-        while (sum != 0) {
+        int carry = 0;
+        LinkedList.Node temp1 = list1.head, temp2 = list2.head;
+        while (temp1 != null || temp2 != null) {
+            int p = (temp1 != null) ? temp1.data : 0;
+            int q = (temp2 != null) ? temp2.data : 0;
+            int sum = p + q + carry;
             finalList = finalList.insert(finalList, sum % 10);
-            sum /= 10;
+            carry = sum / 10;
+            if (temp1 != null)
+                temp1 = temp1.next;
+            if (temp2 != null)
+                temp2 = temp2.next;
+        }
+        if (carry > 0) {
+            finalList = finalList.insert(finalList, carry);
         }
         return finalList;
-    }
-
-    private static int reverse(int num) {
-        int reversed = 0;
-        while (num != 0) {
-
-            int digit = num % 10;
-            reversed = reversed * 10 + digit;
-            num /= 10;
-        }
-        return reversed;
     }
 }
