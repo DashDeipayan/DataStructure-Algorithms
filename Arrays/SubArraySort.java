@@ -11,7 +11,7 @@ public class SubArraySort {
             }
         }
         if (smallestOutOfOrder == Integer.MAX_VALUE) {
-            return new int[] { -1, 1 };
+            return new int[] { -1, -1 };
         }
         int smallIdx = 0;
         while (smallestOutOfOrder >= array[smallIdx]) {
