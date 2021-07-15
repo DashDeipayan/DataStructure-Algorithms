@@ -34,7 +34,7 @@ This Repository is a continuously updating and improving repository so feel free
   - Breadth-First Search(C)
   - Directed Acyclic Graphs(DAGs)(N)
   - Cycle detection(N)
-- Tries(N)
+- Tries(I)
 
 ## Algorithms:-
 
