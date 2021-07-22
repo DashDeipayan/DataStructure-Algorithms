@@ -8,11 +8,11 @@ public class ClassPhotos {
         boolean blueIsBackrowColor = isBlueBackrowColor(redShirtHeight.get(0), blueShirtHeight.get(0));
         for (int i = 0; i < blueShirtHeight.size(); i++) {
             if (blueIsBackrowColor) {
-                if (blueShirtHeight.get(i) < redShirtHeight.get(i)) {
+                if (blueShirtHeight.get(i) <= redShirtHeight.get(i)) {
                     return false;
                 }
             } else {
-                if (blueShirtHeight.get(i) > redShirtHeight.get(i)) {
+                if (blueShirtHeight.get(i) >= redShirtHeight.get(i)) {
                     return false;
                 }
             }
