@@ -50,8 +50,8 @@ This Repository is a continuously updating and improving repository so feel free
 - Greedy Algorithm(N)
 - Divide and Conquer(N)
 - Dynamic Programming(N)
-- Famous Algorithms(N)
-  - Kadane's Algorithm
+- Famous Algorithms(I)
+  - Kadane's Algorithm(C)
   - Topological Sort
   - Knuth-Morris-Pratt Algorithm
   - A\* Algorithm
