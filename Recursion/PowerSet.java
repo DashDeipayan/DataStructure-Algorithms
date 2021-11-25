@@ -21,6 +21,6 @@ public class PowerSet {
     }
 
     public static void main(String[] args) {
-        System.out.println(powerSet(new int[]{0}));
+        System.out.println(powerSet(new int[]{0,1,1}));
     }
 }
